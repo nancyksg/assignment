@@ -1,9 +1,9 @@
 from fastapi import APIRouter
-from app.repositories.boundary_repository import BoundaryRepository
+from app.repositories.boundary_repository import AgentRepository
 
 router = APIRouter()
 
-repo = BoundaryRepository()
+repo = AgentRepository()
 
 @router.get("/")
 def get_boundaries(level: str):
