@@ -1,7 +1,7 @@
 # Importing necessary libraries
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
-from base import Base  # Assuming you have a base.py with a Base class defined for SQLAlchemy
+from base import Base  
 from geoalchemy2 import Geometry
 from sqlalchemy.ext.declarative import declarative_base
 
