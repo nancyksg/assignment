@@ -4,14 +4,14 @@ The Geo Services API is designed as a cloud-native architecture using Azure serv
 
 ## Architecture Diagram
 
-![Architecture](geo_services_architecture.png)
+![Ar
 
 ## Components
 
 ### Leaflet Frontend
 
 The frontend application renders geospatial layers and interacts with the backend API.  
-It consumes vector layers and executes map commands returned by the AI agent.
+It consumes vector layers and executes map commands returned by the agent.
 
 ---
 
