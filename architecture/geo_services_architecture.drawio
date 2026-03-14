@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.6.1">
+  <diagram name="Page-1" id="4GLDac2cHtOqEJWuReto">
+    <mxGraphModel dx="946" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="osh6YfKzsfGzLjCrIE52-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=light-dark(#4f7a28, #ededed);" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Purpose:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 80%;&quot;&gt;&lt;li data-section-id=&quot;7ozp1&quot; data-start=&quot;2333&quot; data-end=&quot;2354&quot; style=&quot;caret-color: rgb(0, 0, 0);&quot;&gt;&lt;p data-start=&quot;2335&quot; data-end=&quot;2354&quot; style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;large GeoJSON files&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-section-id=&quot;1747u9u&quot; data-start=&quot;2370&quot; data-end=&quot;2391&quot; style=&quot;caret-color: rgb(0, 0, 0);&quot;&gt;&lt;p data-start=&quot;2372&quot; data-end=&quot;2391&quot; style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;cached spatial data&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="265" width="157.55" x="90" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;p data-start=&quot;1578&quot; data-end=&quot;1586&quot; style=&quot;text-align: start;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p data-start=&quot;1578&quot; data-end=&quot;1586&quot; style=&quot;text-align: start;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p data-start=&quot;1578&quot; data-end=&quot;1586&quot; style=&quot;text-align: start;&quot;&gt;Purpose:&lt;br&gt;&lt;/p&gt;&lt;ul data-start=&quot;1588&quot; data-end=&quot;1647&quot; style=&quot;text-align: start;&quot;&gt;&lt;/ul&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;ul style=&quot;line-height: 150%;&quot;&gt;&lt;li&gt;API endpoints&lt;br&gt;&lt;/li&gt;&lt;li&gt;FastAPI&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;spatial/ statistics and agents queries&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;ul data-start=&quot;1588&quot; data-end=&quot;1647&quot; style=&quot;text-align: start;&quot;&gt;&lt;/ul&gt;&lt;ul data-start=&quot;1588&quot; data-end=&quot;1647&quot; style=&quot;text-align: start;&quot;&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="380" width="123.66" x="310" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;p data-start=&quot;1578&quot; data-end=&quot;1586&quot; style=&quot;text-align: start;&quot;&gt;Purpose:&lt;/p&gt;&lt;ul data-start=&quot;1588&quot; data-end=&quot;1647&quot; style=&quot;text-align: start;&quot;&gt;&lt;li data-section-id=&quot;14aj16w&quot; data-start=&quot;1588&quot; data-end=&quot;1601&quot;&gt;&lt;p data-start=&quot;1590&quot; data-end=&quot;1601&quot;&gt;API gateway&lt;/p&gt;&lt;/li&gt;&lt;li data-section-id=&quot;gqcdm0&quot; data-start=&quot;1602&quot; data-end=&quot;1618&quot;&gt;&lt;p data-start=&quot;1604&quot; data-end=&quot;1618&quot;&gt;authentication&lt;/p&gt;&lt;/li&gt;&lt;li data-section-id=&quot;1pufno&quot; data-start=&quot;1635&quot; data-end=&quot;1647&quot;&gt;&lt;p data-start=&quot;1637&quot; data-end=&quot;1647&quot;&gt;monitoring&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="370" width="124.66" x="483" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;p data-start=&quot;1471&quot; data-end=&quot;1479&quot; style=&quot;text-align: start;&quot;&gt;Purpose:&lt;/p&gt;&lt;ul data-start=&quot;1481&quot; data-end=&quot;1541&quot; style=&quot;text-align: start;&quot;&gt;&lt;li data-section-id=&quot;yzfma5&quot; data-start=&quot;1481&quot; data-end=&quot;1494&quot;&gt;&lt;p data-start=&quot;1483&quot; data-end=&quot;1494&quot;&gt;renders map&lt;/p&gt;&lt;/li&gt;&lt;li data-section-id=&quot;gxptgd&quot; data-start=&quot;1495&quot; data-end=&quot;1515&quot;&gt;&lt;p data-start=&quot;1497&quot; data-end=&quot;1515&quot;&gt;sends API requests&lt;/p&gt;&lt;/li&gt;&lt;li data-section-id=&quot;74ik6h&quot; data-start=&quot;1516&quot; data-end=&quot;1541&quot;&gt;&lt;p data-start=&quot;1518&quot; data-end=&quot;1541&quot;&gt;executes agent commands&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="280" width="150" x="648" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-2" parent="1" style="shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="84" width="150" x="648" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-3" parent="osh6YfKzsfGzLjCrIE52-2" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.frontend_platform_services;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" value="Frontend&#xa;Platform Services" vertex="1">
+          <mxGeometry height="32" relative="1" width="32" y="0.5" as="geometry">
+            <mxPoint x="5" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-6" edge="1" parent="1" source="osh6YfKzsfGzLjCrIE52-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="osh6YfKzsfGzLjCrIE52-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-5" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" value="" vertex="1">
+          <mxGeometry height="56.61" width="61.33" x="507" y="233.7" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-9" edge="1" parent="1" source="osh6YfKzsfGzLjCrIE52-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="osh6YfKzsfGzLjCrIE52-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-8" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Container_App_Environments.svg;" value="" vertex="1">
+          <mxGeometry height="68" width="68" x="330" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: start; font-size: medium;&quot;&gt;Azure API Management&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="122" x="495" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: start; font-size: medium;&quot;&gt;Azure Container Apps&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="122" x="311.66" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-13" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.postgresql;" value="" vertex="1">
+          <mxGeometry height="67.58" width="68" x="128.78" y="293.12" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: start; font-size: medium;&quot;&gt;PostgreSQL + PostGIS (Azure Database)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="78.78" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-17" edge="1" parent="1" source="osh6YfKzsfGzLjCrIE52-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="320" />
+              <mxPoint x="280" y="270" />
+            </Array>
+            <mxPoint x="334" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-19" edge="1" parent="1" source="osh6YfKzsfGzLjCrIE52-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="osh6YfKzsfGzLjCrIE52-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="161" y="220" />
+              <mxPoint x="270" y="220" />
+              <mxPoint x="270" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-18" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Software_as_a_Service.svg;" value="" vertex="1">
+          <mxGeometry height="60" width="72.45" x="124.78" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font size=&quot;3&quot;&gt;Azure agentic service&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="67.55" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-35" edge="1" parent="1" source="osh6YfKzsfGzLjCrIE52-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="osh6YfKzsfGzLjCrIE52-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="163" y="480" />
+              <mxPoint x="163" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-23" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" value="" vertex="1">
+          <mxGeometry height="60" width="66.78" x="129.39" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="osh6YfKzsfGzLjCrIE52-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: start; font-size: medium;&quot;&gt;Azure blob storage&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="72.78" y="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
