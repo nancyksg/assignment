@@ -2,6 +2,9 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
 from base import Base  # Assuming you have a base.py with a Base class defined for SQLAlchemy
+from geoalchemy2 import Geometry
+from sqlalchemy.ext.declarative import declarative_base
+
 
 # Model for User
 class User(Base):
@@ -25,3 +28,31 @@ class Post(Base):
     user_id = Column(Integer, ForeignKey('users.id'), nullable=False)
 
     author = relationship('User', back_populates='posts')
+
+
+Base = declarative_base()
+
+class Boundary(Base):
+    __tablename__ = "boundaries"
+
+    id = Column(String, primary_key=True)
+    name = Column(String)
+    level = Column(String)
+    code = Column(String)
+    geom = Column(Geometry("MULTIPOLYGON"))
+
+class Road(Base):
+    __tablename__ = "roads"
+
+    id = Column(String, primary_key=True)
+    name = Column(String)
+    type = Column(String)
+    geom = Column(Geometry("LINESTRING"))
+
+
+class Building(Base):
+    __tablename__ = "buildings"
+
+    id = Column(String, primary_key=True)
+    type = Column(String)
+    geom = Column(Geometry("POLYGON"))
