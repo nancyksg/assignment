@@ -9,6 +9,6 @@ roads_repo = RoadsRepository()
 def get_roads(boundary: str):
     """
     Return road features inside a boundary.
-    Example: /layers/roads?boundary=KEN
+    Example: /layers/roads?boundary=BG
     """
     return roads_repo.get_roads_by_boundary(boundary)
