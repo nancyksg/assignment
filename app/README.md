@@ -1,18 +1,6 @@
-# Geo Services API
+# Database Schema Design
 
-This is the README file for the geo-services-api project.
-
-Database Choice
-
-The system is designed around PostgreSQL with the PostGIS extension.
-
-Reasons for this choice:
-
-- industry-standard geospatial database
-- native support for spatial indexing (GiST)
-- advanced spatial operations (ST_Intersects, ST_Within, ST_Length)
-- efficient handling of large vector datasets
-- compatibility with GIS ecosystems (QGIS, GeoServer, GDAL)
+The Geo Services API uses PostgreSQL with the PostGIS extension to store vector geospatial data.
 
 Example spatial query used by the API:
 
@@ -21,3 +9,42 @@ FROM roads
 JOIN boundaries
 ON ST_Within(roads.geom, boundaries.geom)
 WHERE boundaries.code = 'BG';
+
+## Tables
+
+### boundaries
+
+Stores administrative boundaries.
+
+| Column | Type | Description |
+|------|------|-------------|
+| id | UUID | Primary key |
+| name | TEXT | Boundary name |
+| level | TEXT | Administrative level (country, region, district) |
+| code | TEXT | ISO code |
+| geom | GEOMETRY(MULTIPOLYGON) | Boundary geometry |
+
+---
+
+### roads
+
+Stores road network features.
+
+| Column | Type | Description |
+|------|------|-------------|
+| id | UUID | Primary key |
+| name | TEXT | Road name |
+| type | TEXT | highway, primary, residential |
+| geom | GEOMETRY(LINESTRING) | Road geometry |
+
+---
+
+### buildings
+
+Stores building footprints.
+
+| Column | Type | Description |
+|------|------|-------------|
+| id | UUID | Primary key |
+| type | TEXT | residential, commercial, industrial |
+| geom | GEOMETRY(POLYGON) | Building footprint |
