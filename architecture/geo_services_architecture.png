@@ -1,0 +1,15 @@
+User / Frontend
+        |
+        |
+Azure API Management
+        |
+        |
+Azure Container Apps (FastAPI backend)
+        |
+   --------------------------
+   |            |           |
+PostgreSQL   Azure OpenAI   Azure Blob Storage
+(PostGIS)        |             |
+   |             |             |
+Geospatial    AI Agent      Vector tiles /
+data queries  tool calling  GeoJSON layers
