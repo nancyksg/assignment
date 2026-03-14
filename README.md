@@ -40,5 +40,3 @@ Returns aggregated spatial statistics.
 POST /agent/chat
 
 Natural language query interface powered by tool-calling.
-
-Example:
