@@ -4,7 +4,7 @@ The Geo Services API is designed as a cloud-native architecture using Azure serv
 
 ## Architecture Diagram
 
-![Architecture](architecture/geo_services_architecture.png)
+architecture/geo_services_architecture.png 
 
 ## Components
 
