@@ -69,7 +69,7 @@
         <mxCell id="osh6YfKzsfGzLjCrIE52-18" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Software_as_a_Service.svg;" value="" vertex="1">
           <mxGeometry height="60" width="72.45" x="124.78" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="osh6YfKzsfGzLjCrIE52-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font size=&quot;3&quot;&gt;Azure agentic service&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="osh6YfKzsfGzLjCrIE52-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font size=&quot;3&quot;&gt;Azure AI service&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="180" x="67.55" y="90" as="geometry" />
         </mxCell>
         <mxCell id="osh6YfKzsfGzLjCrIE52-35" edge="1" parent="1" source="osh6YfKzsfGzLjCrIE52-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="osh6YfKzsfGzLjCrIE52-13" value="">
