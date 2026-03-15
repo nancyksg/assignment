@@ -16,3 +16,17 @@ class StatisticsRepository:
             "boundary": boundary_code,
             "total_road_length_km": 1250
         }
+        
+    def get_building_statistics(self, boundary_code: str):
+        """
+        Return building counts grouped by type.
+        """
+
+        return {
+            "boundary": boundary_code,
+            "building_counts": {
+                "residential": 5400,
+                "commercial": 320,
+                "industrial": 85
+            }
+        }
